@@ -20,7 +20,7 @@ requirements:
     - libtool  # [unix]
     - {{ compiler("c") }}        # [unix]
     - {{ compiler("m2w64_c") }}  # [win]
-    - bash  # [unix]
+    # - bash  # [unix]
     - make  # [build_platform != target_platform]
   host:
   run:
